@@ -2,11 +2,29 @@
     <html>
         
         <head>
+<style>
+table,th,td{
+border-collapse: collapse;
+border: 1px solid black; 
+}
+#table1{
+    align-self: center;
+}
+#toprow{
+background-color: gray;
+}
+td{
+    font-size:14
+}
+</style>
+<link href="albumstyle.css" 
+      rel="stylesheet" 
+      type="text/css" />
 
         </head>
         <body>
             <span style="text-align: center;"><p><img src="Images/Riders.jpg"></p>
-            <h1>Elephant Riders</h1>
+            <h1 style="color:darkred;">Elephant Riders</h1>
             <h2>Clutch</h2>
             <h3>1998</h3>
             <hr/>
@@ -20,8 +38,8 @@
                 <li>Delfeayo Marsalis - Trombone</li>
                 <li>Jack Douglas - Producer</li>
             </ul>
-            <table border="1">
-                <tr bgcolor="grey">
+            <table id="table1">
+                <tr id="toprow">
                     <th>Track #</th>
                     <th>Track Title</th>
                     <th>Track Length</th>
