@@ -1,36 +1,53 @@
 <DOCTYPE html>
     <html>
-        <head><div style="text-align: center;"><h1>Dirty Will's BBQ</h1></div>
+        <head>
+        <link href="restaurantstyle.css" 
+        rel="stylesheet" 
+        type="text/css" />
+        </head>
+
+
+        <header><div id="restaurantName" style="text-align: center;"><h1>Dirty Will's BBQ</h1></div>
         <hr/>
         <a href="index.html">Home</a>    <a href="menu.html">Menu</a>    <a href="contactus.html">Contact Us</a>
         <hr/>
-        </head>
+        </header>
 
         <body>
-            <form>
+            <form id="formbody">
 Name: <input type="text" name="NameInput" /><br/>
+<br/>
 Email: <input type="text" name="emailInput" /><br/>
+<br/>
 Phone: <input type="text" name="phoneInput" /><br/>
+<br/>
 Reason for Inquiry:<select name="reason">
     <option value="catering">Catering</option>
     <option value="privateParty">Private Party</option>
     <option value="feedback">Feedback</option>
     <option value="other">Other</option>
     </select><br/>
+    <br/>
     Additonal Comments:<br/>
     <textarea name="commments"></textarea><br/>
+    <br/>
 
-    Have you been to the restaurant? <input type="radio" value="restaurantYes" checked />Yes<input type=radio value="restaurantNo" />No<br/>
-
-    Best days to contact you: 
+    Have you been to the restaurant?
+    <span style="font-weight: normal;">
+     <input type="radio" value="restaurantYes" checked />Yes<input type=radio value="restaurantNo" />No<br/>
+     <br/>
+     </span>
+    Best days to contact you: <span style="font-weight: normal;">
     <input type="checkbox" value="mon" />Mon
     <input type="checkbox" value="tue" />Tue
     <input type="checkbox" value="wed" />Wed
     <input type="checkbox" value="thu" />Thu
     <input type="checkbox" value="fri" />Fri<br/>
-    
+    </span>
+    <div id="buttonholder" style="width: 100%;">
     <input type="submit" value="Send Request" />
-
+    </div>
+    
     </form>
             
         </body>

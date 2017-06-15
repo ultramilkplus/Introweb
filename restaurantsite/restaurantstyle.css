@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#restaurantName{
+      font-family: Lobster;          
+        
+        }
+footer,header{
+    background-color: tan;
+    color: red;
+}
+
+#formbody{
+    font-weight: bold;
+}
+
+#buttonholder{
+    text-align: center;
+    }
+
+a{
+    font-family: Lobster;
+}
+
+a:link{
+    color: red;
+
+}
+a:visited{
+    color: darkred;
+
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    
+}
+a:active{
+    text-decoration: underline;
+
+}
