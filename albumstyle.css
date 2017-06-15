@@ -1,6 +1,48 @@
-body {font: 13px Helmet, Freesans, sans-serif;
-        color: #333
-        }
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {  font-size: 13px;
+        font-family: Lobster;          
+        color: #333;
+        
+                }
+table{
+        background-color:lightblue;
+}
 td {
-background-color:lightgrey;
+        background-color:lightgrey;
+        font-style: italic;
+}
+li{
+        font-style: italic;
+}
+#div1{
+        background-image: url("Images/Riders.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+}
+a{
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: none;
+}
+a:link{
+        font-family: Lobster;
+        color: darkred;
+}
+a:visited{
+        color: darkmagenta;
+}
+a:hover{
+        color: red;
+        text-decoration: underline;
+        background-color: grey;
+}
+a:active{
+        color: green;
+
 }
