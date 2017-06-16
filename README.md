@@ -1,3 +1,5 @@
-The simplicity of this game bores me, bring me your finest meats and cheeses.
+This readme was edited locally and pushed to github.
 
-I don't always cheat at monopoly.
+OK no it wasn't. Let's try again.
+
+Where we're going we don't need roads.
